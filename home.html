@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Goro Portfolio</title>
+    <link rel="stylesheet" href="home.css" />
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="top">
+      <div class="img">
+        <!--<img src="image/name-black.jpg" alt="top1" class="name-img" />-->
+        <img src="image/top.jpg" alt="top2" class="logo-img" />
+      </div>
+      <div class="top-menu">
+        <h1><a href="#page-1">Works</a></h1>
+        <h1><a href="#page-2">About</a></h1>
+        <h1><a href="#page-3">Contact</a></h1>
+      </div>
+    </div>
+    <scroll-page id="page-1">
+    <h1 class="works-letter">Works</h1>
+    <div class="works-grid">
+      <div class="item">
+        <img src="image/name-black.jpg" alt="name" />
+        <p>名前のロゴを作った</p>
+      </div>
+      <div class="item">
+        <img src="image/top.jpg" alt="logo" />
+        <p>ウェブサイトのロゴを作った</p>
+      </div>
+      <div class="item"></div>
+    </div>
+    </scroll-page>
+    <scroll-page id="page-2">
+    <div class="about">
+      <h1>About</h1>
+      <div class="about-content">
+        <div class="profile">
+          <h1>Profile</h1>
+          <div class="profile-photo"></div>
+          <div class="profile-name">
+            <h3>Mizuno Goro</h3>
+            <h2>水野　悟朗</h2>
+          </div>
+          <article>
+            2001年生まれ、情報系学部の大学生。<br />
+            コンピュータークラブと吹奏楽サークルに所属している。<br />
+            趣味は読書、ピアノ、寿司打。
+          </article>
+        </div>
+        <div class="skills">
+          <h1>Skills</h1>
+          <article>
+            <s>Python / C / HTML & CSS</s><br />
+            能無し
+          </article>
+        </div>
+      </div>
+      </scroll-page>
+    </div>
+    <scroll-page id="page-3">
+    <div class="contact">
+      <h1>Contact</h1>
+      <div class="grid">
+        <div class="item">
+          <h3>Twitter</h3>
+          <p>
+            <a href="https://twitter.com/RMizugoro">ミズゴロウのツイッター</a>
+          </p>
+        </div>
+
+        <div class="item">
+          <h3>Facebook</h3>
+          <p>
+            <a href="https://www.facebook.com/goro0121"
+              >ミズゴロウのフェイスブック</a
+            >
+          </p>
+        </div>
+      </div>
+      </scroll-page>
+    </div>
+  </body>
+</html>
